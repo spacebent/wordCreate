@@ -1,0 +1,125 @@
+.board {
+    width: 400px;
+    margin: auto
+}
+
+.info {
+    width: 400px;
+    margin: auto;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+body
+{
+   font-family: Segoe UI Light, Arial, Helvetica;
+   font-size: 1.1em;
+   <!-- background-color: #000; -->
+   color: #ddd;
+   background-image: url(images/asteroid_bg.jpg);
+   background-repeat: no-repeat;
+   margin: 0;
+}
+.box-shadow
+{
+   -moz-box-shadow: 3px 3px 6px #222;
+   -webkit-box-shadow: 3px 3px 6px #222;
+   box-shadow: 3px 3px 6px #222;
+}
+canvas
+{
+   <!--background-color: #000;-->
+   border: 1px solid #888;
+}
+.wrapper
+{
+   padding-top: 12px;
+   text-align: center;
+}
+
+.infopanel
+{
+   max-width: 22em;
+   margin-top: 64px;
+   background-color: rgba(40,40,50,.85);
+   color: #fff;
+   line-height: 1.25em;
+   padding: 0.5em;
+}
+.title
+{
+   font-size: 1.75em;
+   padding-top: 6px;
+   padding-bottom: 12px;
+   text-align: center;
+   color: #fff;
+   text-shadow: 1px 1px 4px rgb(60,60,60);
+   line-height: 1em;
+}
+.highlight
+{
+   color: #ffff88;
+}
+.section
+{
+   padding-top: 0.5em;
+}
+.heading
+{
+   font-size: 1.2em;
+   text-shadow: 1px 1px 3px rgba(55,55,55, .5);
+}
+.credits-wrapper
+{
+   text-align: center;
+}
+.credits
+{
+   display: inline-block;
+   padding: 4px 64px;
+   margin: 8px;
+   text-align: center;
+   background-color: rgba(150,150,175,.85);
+   font-size: 0.8em;
+}
+P
+{
+   padding-left: 1em;
+   padding-top: 0;
+   padding-bottom: 0;
+   line-height: 1.1em;
+   margin-top: 0;
+   margin-bottom: 0.66em;
+}
+P.left
+{
+   padding-left: 0.5em;
+   line-height: 1.25em;
+}
+a, a:visited, a:active, a:hover
+{
+   color: #ddddff;
+}
+.results
+{
+   color: white;
+   padding-bottom: 0.25em;
+}
+.results-wrapper
+{
+   display: none;
+   font-size: 1.0em;
+   border: 2px solid grey;
+   background-color: rgba(48,48,48,0.75);
+   padding: 0.5em;
+   margin-top: 1em;
+   line-height: 1.25em;
+   text-align: center;
+}
+.button-overlay
+{
+   position: absolute;
+   right: 8em;
+}
